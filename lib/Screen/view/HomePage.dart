@@ -37,10 +37,11 @@ class _HomePageState extends State<HomePage> {
                     gapPadding: 10, borderRadius: BorderRadius.circular(50)),
               ),
               onFieldSubmitted: (value) {
-                // print("ghyrhytrytr");
+
                 newsdata().getnewsdata(providerTrue!.txtSearch.text.isEmpty
                     ? "India"
-                    : providerTrue!.txtSearch.text);
+                    : providerTrue!.txtSearch.text
+                );
               },
               cursorColor: Colors.black,
             ),

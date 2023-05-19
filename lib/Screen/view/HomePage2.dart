@@ -23,7 +23,6 @@ class _HomePage2State extends State<HomePage2> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          elevation: 0,
           title: Text(
             "${providerTrue!.articles!.title}",
             maxLines: 1,
